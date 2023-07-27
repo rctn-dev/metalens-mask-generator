@@ -26,9 +26,9 @@ lib = TestLib()
 #  Client code starts here. We are creating a layout instance.
 lay = pya.Layout()
 # The lengths are in micron, thus a focus length of 8000.0 corresponds to 8000um=8mm.
-lensFocusLength=8000.0 
-lensOperationWavelength=10.0
-unitCellPeriod=2.0 
+lensFocusLength=4000.0 
+lensOperationWavelength=0.5
+unitCellPeriod=0.2 
 cellArraySize=1500
 # The placement of unit cells are in polar coordinates, 
 # radius=unitCellPeriod*cellArraySize
